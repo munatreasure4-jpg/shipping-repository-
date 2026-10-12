@@ -1,0 +1,12 @@
+# Node
+node_modules/
+
+# Next.js
+.next/
+
+# Env
+.env.local
+.env.*.local
+
+# Vscode
+.vscode/

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --navy-dark: #0B1426;
+  --navy-secondary: #152238;
+  --bright-blue: #00A3FF;
+  --cyan: #00D4FF;
+  --teal: #00C9A7;
+  --muted-grey: #94A3B8;
+}
+
+html, body, #__next { height: 100%; }
+
+.bg-navy-dark { background-color: var(--navy-dark); }
+.bg-navy-secondary { background-color: var(--navy-secondary); }
+.text-muted-grey { color: var(--muted-grey); }
+.bg-bright-blue { background-color: var(--bright-blue); }
+.text-cyan { color: var(--cyan); }
